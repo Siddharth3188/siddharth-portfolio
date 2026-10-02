@@ -1,6 +1,6 @@
 import type { Project, ProjectImage } from "./types";
-const img = (dir: string, file: string, alt: string): ProjectImage => ({ src: `/images/portfolio/${dir}/${file}.svg`, alt, width: 1600, height: 1000 });
-// Swap the .svg placeholders for real screenshots (e.g. featured.webp) and update `img` above.
+const img = (dir: string, file: string, alt: string): ProjectImage => ({ src: `/images/portfolio/${dir}/${file}.webp`, alt, width: 1600, height: 1000 });
+// Images are real .webp screenshots in public/images/portfolio/.
 export const projects: Project[] = [
   {
     slug: "bytezone",
